@@ -40,7 +40,7 @@
             >Casamento <span class="sr-only">(current)</span></a
           >
           <a class="nav-item nav-link" href="#third-section">Nós</a>
-          <a class="nav-item nav-link" href="#">Presentes</a>
+          <a class="nav-item nav-link" href="#fourth-section">Presentes</a>
           <a class="nav-item nav-link" href="#">Onde ficar?</a>
           <a class="nav-item nav-link" href="#">RSVP</a>
         </div>
@@ -89,42 +89,90 @@
     </div>
     <hr />
     <div class="third-section" id="third-section">
-      <div
-        id="carouselExampleAutoplaying"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="5"></li>
+        </ol>
+
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="nos-1.jpeg" class="d-block w-50" alt="Missões" />
+            <p class="photo-head">
+              Missão País 2018: 1ª vez que nos conhecemos
+            </p>
+            <img src="nos-1.jpeg" alt="Image 1" />
+          </div>
+
+          <div class="carousel-item">
+            <p class="photo-head">Junho 2019: 1ª vez que namorámos</p>
+            <img src="namoro.jpeg" alt="Image 2" />
+          </div>
+
+          <div class="carousel-item">
+            <p class="photo-head">Agosto 2023: recomeçámos a namorar</p>
+            <img src="2-namoro.jpg" alt="Image 3" />
+          </div>
+
+          <div class="carousel-item">
+            <p class="photo-head">Novembro 2023: viagem à Irlanda</p>
+            <img src="nos-3.JPG" alt="Image 4" />
           </div>
           <div class="carousel-item">
-            <img src="nos-3.JPG" class="d-block w-50" alt="Irlanda" />
+            <p class="photo-head">Fevereiro 2024: viagem à Noruega</p>
+            <img src="nos-4.jpg" alt="Image 5" />
           </div>
           <div class="carousel-item">
-            <img src="nos-4.jpg" class="d-block w-50" alt="Noruega" />
+            <p class="photo-head">Março 2024: ficámos noivos</p>
+            <img src="noivos.jpeg" alt="Image 6" />
           </div>
         </div>
-        <button
+
+        <a
           class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
+          href="#myCarousel"
+          role="button"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
-        </button>
-        <button
+        </a>
+        <a
           class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
+          href="#myCarousel"
+          role="button"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
       </div>
+    </div>
+    <hr />
+    <div class="fourth-section" id="fourth-section">
+      <h3>Presentes</h3>
+      <p>
+        Poder partilhar com vocês este dia tão especial é o melhor presente que
+        nos poderiam dar! <br />Optámos por não fazer lista de presentes, uma
+        vez que temos a nossa casa montada e pronta para vos receber! Se
+        desejarem contribuir para a nossa lua-de-mel ou vida de casados, poderão
+        transferir o vosso contributo para:
+      </p>
+      <p>IBAN:</p>
+      <p>SWIFT:</p>
+    </div>
+    <hr />
+    <div class="fourth-section" id="fourth-section">
+      <h3>Onde ficar?</h3>
     </div>
     <footer></footer>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
 </html>
