@@ -96,16 +96,75 @@ button {
   border-top-right-radius: 4px;
 }
 
-.fourth-section {
+.second-section,
+.third-section,
+.fourth-section,
+.fifth-section,
+.sixth-section {
   margin: 40px auto;
   max-width: 900px;
 }
 
-.fourth-section h3 {
+.fourth-section h3,
+.fifth-section h3 {
   text-align: center;
 }
 
 .fourth-section p {
   text-align: justify;
   margin-top: 30px;
+}
+
+.presentes {
+  text-align: justify;
+}
+
+.grelha {
+  margin-top: 40px;
+}
+
+.hoteis {
+  font-weight: 600;
+  margin-top: 20px !important;
+}
+
+.stay {
+  width: 100%;
+}
+
+.ficar {
+  text-align: center !important;
+  margin: 15px 0;
+}
+
+.onde {
+  margin: 10px 0 !important;
+  text-align: justify;
+  font-size: 13px;
+}
+
+.RSVP {
+  text-align: center;
+}
+
+.formulario {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.confirma {
+  font-size: 14px;
+}
+
+.confirmações {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
