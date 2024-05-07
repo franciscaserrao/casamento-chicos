@@ -115,7 +115,7 @@ button {
   margin-top: 30px;
 }
 
-.presentes {
+.oferendas {
   text-align: justify;
 }
 
@@ -167,4 +167,31 @@ button {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.honeymoon {
+  width: 400px;
+  height: auto;
+  border-radius: 3px;
+}
+
+.serviço {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+.paises-mel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lua-de-mel {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.presentes-casa {
+  text-align: center;
+  margin-top: 40px;
 }
