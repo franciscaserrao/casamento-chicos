@@ -5,7 +5,7 @@ body {
 }
 
 .first-section {
-  position: relative; /* Set the container as relative position */
+  position: relative;
 }
 
 .first-section img {
@@ -147,14 +147,15 @@ button {
   text-align: center;
 }
 
-.formulario {
+.formulario,
+.questionario {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
 
 .confirma {
-  font-size: 14px;
+  text-align: justify;
 }
 
 .confirmações {
@@ -194,4 +195,15 @@ button {
 .presentes-casa {
   text-align: center;
   margin-top: 40px;
+}
+
+.driver {
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 30px;
+  text-align: center;
 }
